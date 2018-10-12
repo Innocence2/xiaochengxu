@@ -1,0 +1,27 @@
+/* pages/profile/profile.wxss */
+.avatar{
+  background-color: #fcc;
+  height:400rpx;
+  line-height: 70rpx;
+}
+.avatar image{
+  height: 200rpx;
+  width:200rpx;
+  border:10rpx solid rgba(0,0,0,0.1);
+  border-radius:50%;
+}
+/* 水平垂直居中 */
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  flex-direction: column;
+}
+.cell{
+  font-size: 16px;
+}
+.cell-item{
+  border-bottom:1rpx solid #ddd;
+  padding:20rpx 30rpx;
+}

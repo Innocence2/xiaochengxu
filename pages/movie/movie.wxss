@@ -1,0 +1,73 @@
+/* pages/movie/movie.wxss */
+
+page{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.navbar{
+  flex: none;
+  display: flex;
+  background: #fff;
+}
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height: 80rpx;
+}
+.navbar .item.active{
+  color: #fcc;
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4rpx;
+  background: #fcc;
+}
+
+.list{
+  padding:20rpx;
+  border-bottom:1px solid #ccc;
+  display:flex;
+  position: relative;
+}
+.list image{
+  width:200rpx;
+  height: 400rpx;
+}
+.movie-info{
+  width:520rpx;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20rpx;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.movie-info .data{
+  font-size: 12px;
+}
+.movie-info .des{
+  font-size: 12px;
+}
+.movie-star{
+  position: absolute;
+  right: 20rpx;
+  top: 20rpx;
+  
+}
+.star-after{
+color:#e2e2e2;
+}
+.star-before{
+  color:#f19e38;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:80%;
+  overflow: hidden;
+}

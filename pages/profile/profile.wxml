@@ -1,0 +1,15 @@
+<!--pages/profile/profile.wxml-->
+<view class="avatar center">
+<image src="../images/avatar.png" mode="aspectFill"></image>
+<text style="color:#f00">我的音乐</text>
+<button type="default" size="mini" hover-class="other-button-hover"> 点击分享 </button>
+</view>
+<view class="cell">
+  <navigator class="cell-item">
+     <text>个人资料</text>
+  </navigator>
+  <navigator class="cell-item">
+     <text>票</text>
+  </navigator>
+</view>
+<view class="diviter"></view>

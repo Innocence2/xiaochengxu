@@ -1,0 +1,42 @@
+/* pages/news/news.wxss */
+page{
+  background: #f1f1f1;
+}
+.card{
+ border-radius:10rpx;
+ background: #fff;
+ border:1px solid #ddd;
+ margin:60rpx 20rpx;
+ padding:20rpx;
+ display: flex;
+ flex-flow: column;
+}
+.card image{
+  width:100%;
+  margin-top: 20rpx;
+  height: 300rpx;
+}
+.card .card-title{
+  font-size: 20px;
+  margin-bottom:20rpx;
+}
+.card .card-date{
+  font-size: 14px;
+  color:#ccc;
+  border-bottom:1px solid #ccc;
+  padding-bottom: 20rpx;
+}
+.card .card-descript{
+  font-size: 18px;
+  color:#333;
+
+  margin-top: 20rpx;
+}
+
+.card .card-detail{
+  font-size: 14px;
+  color:#ccc;
+  border-top: 1px solid #ccc;
+  margin-top: 20rpx;
+  padding-top: 20rpx;
+}

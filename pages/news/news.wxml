@@ -1,0 +1,9 @@
+<!--pages/news/news.wxml-->
+<view class="card">
+   <text class="card-title">标题</text>
+   <text class="card-date">日期</text>
+   <image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3247801073,848360698&fm=26&gp=0.jpg" mode="widthFix"></image>
+    <text class="card-descript">1111</text>
+    <text class="card-detail arrow">查看详情</text>
+</view>
+

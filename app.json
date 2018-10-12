@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/own/own",
+    "pages/movie/movie",
+    "pages/news/news",
+    "pages/music/music",
+    "pages/profile/profile",
+    "pages/login/login",
+    "pages/eat/eat"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fcc",
+    "navigationBarTitleText": "梅格妮",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#fff"
+  },
+  "tabBar": {
+    "color": "#f00",
+    "backgroundColor": "#fcc",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "pages/images/home.png",
+        "selectedIconPath": "pages/images/home.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "pages/images/movie.png",
+        "selectedIconPath": "pages/images/movie.png"
+      },
+      {
+        "pagePath": "pages/music/music",
+        "text": "音乐",
+        "iconPath": "pages/images/music.png",
+        "selectedIconPath": "pages/images/music.png"
+      },
+      {
+        "pagePath": "pages/news/news",
+        "text": "消息",
+        "iconPath": "pages/images/消息.png",
+        "selectedIconPath": "pages/images/消息.png"
+      },
+      {
+        "pagePath": "pages/login/login",
+        "text": "个人中心",
+        "iconPath": "pages/images/个人中心.png",
+        "selectedIconPath": "pages/images/个人中心.png"
+      }
+    ]
+  }
+}
